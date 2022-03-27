@@ -57,7 +57,7 @@ const URL = "https://climate-change-updates2.p.rapidapi.com/news";
          const cardBody = document.createElement("div");
          cardBody.classList.add("card");
          cardBody.innerHTML = `
-         <p class="card-text fw-bold">News Title:</p>
+         <p class="card-text fw-bold mt-3">News Title:</p>
          <h3 class="card-title fw-bold text-success">${char.title}</h3>
        
          <a href="${char.url}" class="pa text-decoration-none text-secondary py-1" target="_blank">Visit this article</a> 
