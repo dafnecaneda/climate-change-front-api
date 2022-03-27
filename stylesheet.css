@@ -4,9 +4,33 @@ body {
 }
 
 h1 {
-  text-shadow: 3px 3px #c7c7c7;
+  text-shadow: 3px 3px #d9e4da;
 }
 
+.btnsearch {
+  margin-top: 2rem;
+  width: 140px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  background-color: rgb(1, 133, 45);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnsearch:hover {
+  background-color: #1d8c5f;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 .card {
   border: 2px solid;
   border-radius: 20px;
